@@ -1,0 +1,28 @@
+body {
+	background:url("img/pizza-background.png"); 
+	background-repeat: no-repeat;
+	border: none;
+	font-size: 125%;
+	font-family: "Source Sans Pro", helvetica, sans-serif;
+	color: #FFFFFF;
+	font-weight: 200;
+	line-height: 26px;	
+}
+
+h1 {
+	width:694px;
+	height:476px;
+	position: absolute;
+        top: 25%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+}
+
+p {
+	position: absolute;
+	top: 350px;
+	margin-left: 200px;
+	margin-right: 200px;
+	text-align: center;
+}

@@ -4,7 +4,7 @@ body {
 	border: none;
 	margin-top: 250px;
 	margin-left: 150px;
-	font-size: 26px;
+	font-size: 150%;
 	font-family: helvetica, arial, sans-serif;
 	color: #fff;
 	font-weight: 200;
@@ -22,6 +22,7 @@ hr {
 	margin: 0;
 	border-color: #fd6e6e;
 	width: 40px; 
+	
 }
 
 a {
