@@ -1,0 +1,69 @@
+body {
+	background:url("Images/Talking_Dolls_Studio.png"); 
+	background-repeat: no-repeat;
+	padding:20px;
+	border: 12px solid #FFFFFF;
+	font-size: 125%;
+	font-family: "Arvo", serif;
+	color: #FFFFFF;
+	font-weight: 200;
+	line-height: 26px;
+}
+	
+h1 {
+	width:160px;
+	height:160px;
+	position: absolute;
+       	top: 6%;
+        left: 8%;
+
+}
+.img:hover { color: url("Images/SCIDE_Design_Logo_white.png")
+}
+
+nav {
+  background-color: none;
+  font-family: "Arvo", serif;
+}
+
+a {
+  background-color: #FFFFFF;
+  color: #333333;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  float: right;
+  width: 140px;
+  height: 36px;
+  padding-top: 6px;
+  margin: 10px;
+}
+
+a:hover {
+	background-color: #0066FF
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  margin-right: 0;
+  font-size: 0;
+}
+
+#footer {
+	background-color: none;
+	 clear:both;
+	 width:100%;
+	height:40px;
+	position:absolute;
+}
+#footer h1{
+    text-align:left;
+    font-weight: 400;
+    font-height: 48px;
+    padding:5px;
+}
+
