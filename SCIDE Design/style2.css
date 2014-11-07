@@ -4,6 +4,7 @@ body {
 	border: 12px solid #333333;
 	font-size: 125%;
 	font-family: "Arvo", serif;
+  font-family: "Cabin", sans-serif;
 	color: #333333;
 	font-weight: 200;
 	line-height: 26px;
@@ -50,8 +51,21 @@ a:hover {
 }
 
 section {
-	height:500px;
+	/*height:500px;*/
+  display: block;
 }
+
+.verticalline {
+  border-left: solid #333333;
+}
+
+aside {
+  display:block;
+ }
+ aside p {
+    font-family: "Cabin", sans-serif;
+}
+
 footer {
 	background-color: none;
 	 clear:both;
