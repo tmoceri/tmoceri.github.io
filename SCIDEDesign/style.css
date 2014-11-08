@@ -9,24 +9,29 @@ body {
 	font-weight: 200;
 	line-height: 26px;
 }
+
 	
 #logo {
 	position: absolute;
     top: 6%;
     left: 8%;
+    width: 125px;
+    height: 125px;
 	background-image:url("Images/SCIDE_Design_Logo_white.png");
-	background-repeat: none;
-	width: 10%;
 }
 
 #logo:hover {
 	background-image:url("Images/SCIDE_Design_Logo_blue.png");
 }
 
-
 nav {
   background-color: none;
   font-family: "Arvo", serif;
+}
+
+.nav_links a {
+	color: #333333;
+text-decoration: none;
 }
 
 .nav_links {
@@ -58,30 +63,56 @@ nav {
 footer {
 	background-color: none;
 	bottom: 28px;
-	margin-left: 60px;
 	margin-right: 0px;
 	position:fixed;
 	width:100%;
 	height:40px;
 }
 
-footer h1{
+#mail {
+	position: absolute;
+    height: 40px;
+	width: 60px;
+	display: block;
+	float:left;
+	bottom: 20px;
+	left: 60px;
+	background-image:url("Images/mail_icon_white.png");
+}
+
+#mail:hover {
+	background-image:url("Images/mail_icon_blue.png");
+}
+
+#behance {
+	position: absolute;
+    height: 40px;
+	width: 40px;
+	display: block;
+	float:left;
+	background-image:url("Images/behance_logo_white.png");
+}
+
+#behance:hover {
+	background-image:url("Images/behance_logo_blue.png") 
+}
+
+#name a {
+	color: #FFFFFF;
+text-decoration: none;
+}
+
+#name:hover a{
+	color: #0066FF;
+}
+
+#name{
     text-align:right;
     font-style: bold;
     font-size: 32px;
-    float: right;
+    position: relative;
+    left: -76px;
 }
 
-footer h1:hover{
-	background-color: #0066FF)
-}
 
-footer img{
-	height: 40px;
-	width: 40px;
-	margin-left: 18px;
-	display: block;
-	background-color: none;
-	float:left;
-}
 
