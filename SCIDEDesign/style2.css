@@ -55,9 +55,7 @@ section {
   display: block;
 }
 
-.verticalline {
-  border-left: solid #333333;
-}
+
 
 aside {
   display:block;
@@ -67,27 +65,58 @@ aside {
 }
 
 footer {
-	background-color: none;
-	 clear:both;
-	 width:100%;
-	height:40px;
-	position:absolute;
+  background-color: none;
+  bottom: 28px;
+  margin-right: 0px;
+  position:fixed;
+  width:100%;
+  height:40px;
 }
-footer h1{
+
+#mail {
+  position: absolute;
+    height: 34px;
+  width: 56px;
+  display: block;
+  float:left;
+  bottom: 7%;
+  left: 4%;
+  background-image:url("Images/mail_icon_dark_grey.png");
+}
+
+#mail:hover {
+  background-image:url("Images/mail_icon_blue.png");
+}
+
+#instagram {
+  position: absolute;
+    height: 40px;
+  width: 40px;
+  display: block;
+  float:left;
+  bottom: 6%;
+  left: 10%;
+  background-image:url("Images/homepage_instagram_dark_grey.png");
+}
+
+#instagram:hover {
+  background-image:url("Images/homepage_instagram_blue.png") 
+}
+
+#name a {
+  color: #333333;
+text-decoration: none;
+}
+
+#name:hover a{
+  color: #0066FF;
+}
+
+#name{
     text-align:right;
     font-style: bold;
-    font-size: 32px;
-    margin-right: 80px;
-}
-footer h1:hover{
-	background-color: #0066FF)
-}
-footer img{
-	height: 40px;
-	width: 40px;
-	position: absolute;
-	left: 0px;
-    top: 0px;
-	z-index: -1;
+    font-size: 48px;
+    position: relative;
+    left: -6%;
 }
 

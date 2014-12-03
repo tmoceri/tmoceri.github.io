@@ -14,7 +14,7 @@ body {
 #logo {
 	position: absolute;
     top: 6%;
-    left: 8%;
+    left: 4%;
     width: 125px;
     height: 125px;
 	background-image:url("Images/SCIDE_Design_Logo_white.png");
@@ -71,30 +71,32 @@ footer {
 
 #mail {
 	position: absolute;
-    height: 40px;
-	width: 60px;
+    height: 34px;
+	width: 56px;
 	display: block;
 	float:left;
-	bottom: 20px;
-	left: 60px;
-	background-image:url("Images/mail_icon_white.png");
+	bottom: 7%;
+	left: 4%;
+	background-image:url("Images/homepage_mail_white.png");
 }
 
 #mail:hover {
-	background-image:url("Images/mail_icon_blue.png");
+	background-image:url("Images/homepage_mail_blue.png");
 }
 
-#behance {
+#instagram {
 	position: absolute;
     height: 40px;
 	width: 40px;
 	display: block;
 	float:left;
-	background-image:url("Images/behance_logo_white.png");
+	bottom: 6%;
+	left: 10%;
+	background-image:url("Images/homepage_instagram_white.png");
 }
 
-#behance:hover {
-	background-image:url("Images/behance_logo_blue.png") 
+#instagram:hover {
+	background-image:url("Images/homepage_instagram_blue.png") 
 }
 
 #name a {
@@ -109,10 +111,15 @@ text-decoration: none;
 #name{
     text-align:right;
     font-style: bold;
-    font-size: 32px;
+    font-size: 48px;
     position: relative;
-    left: -76px;
+    left: -6%;
 }
+@ media only screen and (min-width: 320px) and (max-width: 768px)
 
+	#logo {
+    width: 40%;
+    height: 40%;
+}
 
 
